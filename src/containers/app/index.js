@@ -24,17 +24,17 @@ class App extends Component {
                     <ToastContainer autoClose={2500} position="top-center" />
                     <Switch>
                         <Route exact path="/" component={HomePageOne} />
-                        <Route exact path="/home-two" component={HomePageTwo} />
-                        <Route exact path="/home-three" component={HomePageThree} />
-                        <Route exact path="/about" component={AboutPage} />
-                        <Route exact path="/practice" component={PracticePage} />
-                        <Route exact path="/practice-details" component={PracticeSinglePage} />
-                        <Route exact path="/case-stadies" component={PortfolioPage} />
-                        <Route exact path="/case-stadies-details" component={SinglePortfolioPage} />
-                        <Route exact path="/attorneys" component={TeamPage} />
-                        <Route exact path="/attorneys-single" component={SingleTeamPage} />
-                        <Route exact path="/attorneys-single1" component={SingleTeamPage1} />
-                        <Route exact path="/contact" component={ContactPage} />
+                        <Route exact path="/Home-two" component={HomePageTwo} />
+                        <Route exact path="/Home-three" component={HomePageThree} />
+                        <Route exact path="/About" component={AboutPage} />
+                        <Route exact path="/Practice" component={PracticePage} />
+                        <Route exact path="/Practice-details" component={PracticeSinglePage} />
+                        <Route exact path="/Case-stadies" component={PortfolioPage} />
+                        <Route exact path="/Case-stadies-details" component={SinglePortfolioPage} />
+                        <Route exact path="/Attorneys" component={TeamPage} />
+                        <Route exact path="/Attorneys-single" component={SingleTeamPage} />
+                        <Route exact path="/Attorneys-single1" component={SingleTeamPage1} />
+                        <Route exact path="/Contact" component={ContactPage} />
                         
                     </Switch>
                 </BrowserRouter>

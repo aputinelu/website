@@ -2,7 +2,7 @@
   "name": "barristar-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aputinelu.github.io/website",
+  "homepage": "https://aputinelu.github.io/website",
   "dependencies": {
     "axios": "^0.18.1",
     "bootstrap": "^4.5.2",
